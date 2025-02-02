@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login</title>
+    <link rel="icon" type="image/x-icon" href="images/facebook-favicon.ico">
+    <style>
+        body {
+            background-color: #fff;
+            font-family: Segoe UI;
+        }
+        #login-info {
+            position: absolute;
+            top: 150px;
+
+            /* border: 1px solid black; */
+        }
+        #logo {
+            position: relative;
+            width: 40%;
+            top: 20px;
+            left: 200px;
+            margin-bottom: 0px;
+            /* border: 1px solid black; */
+        }
+        #log-text {
+            font-weight: 500;
+            display: block;
+            font-size: 24px;
+            position: relative;
+            left: 240px;
+            margin-top: -10px;
+            /* border: 1px solid black; */
+
+        }
+        #login-form-div {
+            background-color: white;
+            height: 300px;
+            width: 350px;
+            border-radius: 6px;
+            position: absolute;
+            top: 150px;
+            left: 850px;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 0 0 20px lightgrey;
+        }
+
+        .input-field {
+            font-size: 16px;
+            display: inline;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            width: 330px;
+            line-height: 40px;
+            margin: 8px auto;
+            text-align: center;
+        }
+        .input-field:focus {
+            outline: none !important;
+            border-color:#4267b2
+        }
+        #login-button {
+            margin-top: 8px;
+            margin-bottom: 16px;
+            background-color: #0866ff;
+            color: white;
+            font-size: 20px;
+            width: 330px;
+            line-height: 40px;
+            border: none;
+            border-radius: 6px; 
+        }
+        #login-button:hover {
+            background-color: #2c75ea;
+        }
+        #create-new-account-button {
+            background-color: #42b72a;
+            color: white;
+            font-size: 16px;
+            width: 200px;
+            line-height: 40px;
+            border: none;
+            border-radius: 6px; 
+        }
+        #create-new-account-button:hover {
+            background-color: #1f9907;
+        }
+        a#forgot-password {
+            display: block;
+            color: #0866ff;
+            margin-bottom: 16px;
+            text-decoration: none;
+        }
+        a#new-page {
+            display: inline;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            display: block;
+            width: 330px;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 1em auto;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-info">
+        <img id="logo" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+        <p id="log-text">Facebook помогает вам всегда <br> оставаться на связи и общаться со <br> своими знакомыми.</p>
+    </div>
+
+    <div id="login-form-div">
+        <form id="login-form">
+            <input class="input-field form-font" type="email" size="30" placeholder="Электронный адрес или номер телефона"> <br>
+            <input class="input-field form-font" type="password" size="30" placeholder="Пароль"> <br>        
+        </form>
+        <button class="input-field" id="login-button" form="login-form"><strong>Вход</strong></button> <br>
+        <a id="forgot-password" href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzM4NDM4MzQ2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">Забыли пароль?</a>
+        <hr>
+        <button class="input-field" id="create-new-account-button"><strong>Создать новый аккаунт</strong></button>
+        <p><a id="new-page">Создать Страницу </a>знаменитости, музыкальной группы или компании.</p>
+    </div>
+</body>
+</html>

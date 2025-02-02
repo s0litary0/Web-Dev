@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instagram </title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/instagram-favicon.ico">
+</head>
+<body>
+    <!-- <img src="images/phone1.png">
+    <img src="images/screenshot1.png"> -->
+    <div class="phone">
+        <div class="background-image">
+            <img src="images/phone1.png" alt="main-screenshot">
+        </div>
+        <div class="container">
+            <div class="images">
+                <img src="images/screenshot1.png" alt="screenshot1">
+                <img src="images/screenshot2.png" alt="screenshot2">
+                <img src="images/screenshot3.png" alt="screenshot3">
+                <img src="images/screenshot4.png" alt="screenshot4">
+
+            </div>
+        </div>
+    </div>
+    <div class="form-div">
+        <div class="form-div-1">
+            <img src="images/Instagram_logo.png" id="instagram-logo">
+            <form>
+                <input type="text" placeholder="Телефон, имя пользователя или эл. адрес"><br>
+                <input type="password" placeholder="Пароль"><br>
+                <button id="enter">Войти</button><br>
+                <hr>
+                <p id="or">ИЛИ</p>
+                <button id="facebook-button">Войти через Facebook</button><br>
+                <p><a id="forgot-password-a" href="https://www.instagram.com/accounts/password/reset/">Забыли пароль?</a></p>
+            </form>
+        </div>
+        <div class="form-div-2">
+            <p>У вас еще нет аккаунта? <a id="register" href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></p>
+        </div>
+        <div class="form-div-3">
+            <p>Установите приложение.</p>
+            <img class="image-button" src="images/google_play.png" alt="google-play">
+            <img class="image-button" src="images/microsoft.png" alt="microsoft">
+        </div>
+    </div>
+    <script>
+        var index = 0;
+        function slideShow() {
+            setTimeout(slideShow, 3500);
+            var i;
+            const images = document.querySelectorAll(".images img");
+            for (i = 0; i < images.length; i++) {
+                images[i].style.display = "none";
+            }
+            index++;
+            if (index > images.length) {
+                index = 1;
+            }
+            images[index - 1].style.display = "block";
+        }
+        slideShow();
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.phone {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+.container .images {
+    position: absolute;
+    left: 155px;
+    top: 25px;
+    width: 250px;
+    height: 541px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container {
+    display: inline-block;
+}
+.images {
+    display: inline-block;
+}
+.form-div {
+    /* border: 1px dashed white; */
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    left: 800px; 
+    top: 50px;
+    text-align: center;
+    padding: 10px;
+    /* align-items: center; */
+}
+#instagram-logo {
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.form-div-1 {
+    height: 350px;
+    border: 1px solid rgb(65, 65, 65);
+}
+
+input {
+    margin-top: 10px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    font-size: 11px;
+    text-align: left;
+    color: rgb(156, 155, 155);
+}
+#enter {
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 260px;
+    height: 30px;
+}
+#enter:hover {
+    background-color: rgb(0, 83, 172);
+    cursor: pointer;
+}
+#facebook-button {
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 149, 246);
+}
+#facebook-button:hover {
+    color: white;
+    cursor: pointer;
+}
+.form-div-2 {
+    position: relative;
+    top: 10px;
+    border: 1px solid rgb(65, 65, 65);
+    height: 50px;
+}
+#forgot-password-a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.form-div-3 {
+    position: relative;
+    top: 30px;
+    /* border: 1px dashed green; */
+}
+#register {
+    font-weight: 500;
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+}
+.form-div-3 img {
+    height: 40px;
+
+}
+hr {
+    display: block;
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid rgb(65, 65, 65);
+    width: 300px;
+    height: 1px;
+}
+#or {
+    color: rgb(160, 158, 158);
+    width: 70px;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+    top: -15px;
+}
