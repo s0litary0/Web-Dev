@@ -1,0 +1,152 @@
+body {
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+#logo {
+    height: 20px;
+    margin: 10px;
+    margin-left: 30px;
+    float: left;
+}
+.button-icon {
+    position: relative;
+    margin: 0 auto;
+    margin-left: 5px;
+    top: 5px;
+    height: 20px;
+}
+ul {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    /* border: 1px dashed black;  */
+}
+li {
+    margin: 10px;
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.left-side {
+    top: 1px;
+}
+.right-side {
+    position: absolute;
+    top: 1px;
+    right: 100px;
+}
+.banner-info {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 160px;
+    padding: 40px;
+    box-shadow: 0 0 10px gray;
+    position: absolute;
+    left: 100px; 
+    top: 250px;
+}
+#shop-now {
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #0067b8;
+    width: 150px;
+    line-height: 40px; 
+}
+#shop-now:hover {
+    cursor: pointer;
+    background-color: #1890eb;
+}
+#banner {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    max-width: 100%;
+}
+#hat-p {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #0067b8;
+    width: 100%;
+    margin-bottom: 0;
+}
+#hat-p a, #hat-p a:visited {
+    color: white;
+    text-decoration: none;
+}
+#hat-p a:hover {
+    border: none;
+    border-bottom: 2px solid white;
+}
+.panel-2 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-2 ul li a {
+    font-size: 16px;
+    color: #0067b8;
+    text-decoration: underline;
+    text-align: center;
+    float: left;
+    /* border: 1px dashed black; */
+}
+.panel-2 li img {
+    height: 50px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 450px;
+    width: 300px;
+    /* border: 1px dashed black; */
+    margin: 10px;
+    box-shadow: 0 0 5px grey;
+}
+.choice h2 {
+    margin: 15px;
+    font-size: 28px;
+    font-weight:600;
+}
+.choice p {
+    margin: 15px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+.choice img {
+    width: 300px;
+}
+.choice button {
+    font-size: 15px;;
+    border: none;
+    background-color: #1890eb;
+    color: white;
+    width: fit-content;
+    margin: 10px;
+    font-weight: 500;
+    padding: 10px;
+}
+.choice button:hover {
+    background-color: #0067b8;
+    cursor: pointer;
+    box-shadow: 0 0 5px grey;
+}
