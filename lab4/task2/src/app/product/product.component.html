@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="image">
+    <img [src]="product.image" alt="photo">
+  </div>
+  <hr>
+  <div class="name-description">
+    <h2 class="name"><a [href]="product.href"> {{ product.name }} {{ product.description }}</a></h2>
+    <p class="rating"> ({{ product.commentsNumber }} отзывов)</p>
+  </div>
+<!--  <p class="comments font"> {{ product.commentsNumber }} </p>-->
+  <div class="pricing">
+    <div class="price">
+      <h3 font> Цена </h3>
+      <p font> {{ product.price }} </p>
+    </div>
+    <div class="installment-plan">
+      <h3 font> В рассрочку </h3>
+      <p font> {{ product.price }} </p>
+    </div>
+  </div>
+  <app-share-buttons [product]="product" />
+</div>
+

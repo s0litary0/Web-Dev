@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+.content {
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
