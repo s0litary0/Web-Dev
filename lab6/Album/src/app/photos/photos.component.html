@@ -1,0 +1,10 @@
+<div class="photos">
+  <p><a [routerLink]="['/albums', photos[0].albumId]">Return</a></p>
+  <ul *ngIf="loaded">
+    <li *ngFor="let photo of photos">
+      {{photo.albumId}}
+      <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+
+    </li>
+  </ul>
+</div>
