@@ -1,0 +1,13 @@
+.product-card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 100px;
+  /*border: 1px solid #000;*/
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

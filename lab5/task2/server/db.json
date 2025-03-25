@@ -1,0 +1,190 @@
+{
+  "phones": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro",
+      "photourl": "https://example.com/iphone15.jpg",
+      "url": "https://example.com/products/iphone15",
+      "description": "The iPhone 15 Pro features a titanium design, A17 Pro chip, and advanced camera system with 5x optical zoom.",
+      "price": 999,
+      "likes": 1261
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "photourl": "https://example.com/galaxys23.jpg",
+      "url": "https://example.com/products/galaxys23",
+      "description": "Samsung Galaxy S23 with Dynamic AMOLED 2X display, Snapdragon 8 Gen 2, and professional-grade cameras.",
+      "price": 799,
+      "likes": 996
+    },
+    {
+      "id": "3",
+      "name": "Google Pixel 8",
+      "photourl": "https://example.com/pixel8.jpg",
+      "url": "https://example.com/products/pixel8",
+      "description": "Google Pixel 8 with Tensor G3 chip, best-in-class computational photography, and 7 years of OS updates.",
+      "price": 699,
+      "likes": 756
+    },
+    {
+      "id": "4",
+      "name": "OnePlus 11",
+      "photourl": "https://example.com/oneplus11.jpg",
+      "url": "https://example.com/products/oneplus11",
+      "description": "OnePlus 11 with Hasselblad camera system, Snapdragon 8 Gen 2, and 100W fast charging.",
+      "price": 699,
+      "likes": 654
+    },
+    {
+      "id": "5",
+      "name": "Xiaomi 13 Pro",
+      "photourl": "https://example.com/xiaomi13.jpg",
+      "url": "https://example.com/products/xiaomi13",
+      "description": "Xiaomi 13 Pro featuring Leica cameras, Snapdragon 8 Gen 2, and 120W HyperCharge technology.",
+      "price": 899,
+      "likes": 432
+    }
+  ],
+  "laptops": [
+    {
+      "id": "1",
+      "name": "MacBook Pro 16\"",
+      "photourl": "https://example.com/macbookpro.jpg",
+      "url": "https://example.com/products/macbookpro",
+      "description": "MacBook Pro 16\" with M2 Pro/Max chip, Liquid Retina XDR display, and up to 96GB unified memory.",
+      "price": 2499,
+      "likes": 876
+    },
+    {
+      "id": "2",
+      "name": "Dell XPS 15",
+      "photourl": "https://example.com/dellxps.jpg",
+      "url": "https://example.com/products/dellxps",
+      "description": "Dell XPS 15 with 13th Gen Intel Core processors, 4K OLED display, and premium CNC machined aluminum chassis.",
+      "price": 1799,
+      "likes": 765
+    },
+    {
+      "id": "3",
+      "name": "HP Spectre x360",
+      "photourl": "https://example.com/hpspectre.jpg",
+      "url": "https://example.com/products/hpspectre",
+      "description": "HP Spectre x360 2-in-1 laptop with 13th Gen Intel Core, 3K2K OLED display, and gem-cut design.",
+      "price": 1499,
+      "likes": 543
+    },
+    {
+      "id": "4",
+      "name": "Lenovo ThinkPad X1",
+      "photourl": "https://example.com/thinkpad.jpg",
+      "url": "https://example.com/products/thinkpad",
+      "description": "Lenovo ThinkPad X1 Carbon with Intel Evo platform, military-grade durability, and best-in-class keyboard.",
+      "price": 1699,
+      "likes": 432
+    },
+    {
+      "id": "5",
+      "name": "Asus ROG Zephyrus",
+      "photourl": "https://example.com/asusrog.jpg",
+      "url": "https://example.com/products/asusrog",
+      "description": "Asus ROG Zephyrus gaming laptop with NVIDIA RTX 40 series GPU, AMD Ryzen 9, and ultra-slim design.",
+      "price": 1999,
+      "likes": 321
+    }
+  ],
+  "shoes": [
+    {
+      "id": "1",
+      "name": "Nike Air Max",
+      "photourl": "https://example.com/nikeairmax.jpg",
+      "url": "https://example.com/products/nikeairmax",
+      "description": "Nike Air Max 270 with visible Air cushioning, breathable mesh upper, and lightweight design for all-day comfort.",
+      "price": 160,
+      "likes": 543
+    },
+    {
+      "id": "2",
+      "name": "Adidas Ultraboost",
+      "photourl": "https://example.com/adidasultra.jpg",
+      "url": "https://example.com/products/adidasultra",
+      "description": "Adidas Ultraboost 23 with responsive Boost cushioning, Primeknit+ upper, and optimized torsion system.",
+      "price": 180,
+      "likes": 432
+    },
+    {
+      "id": "3",
+      "name": "Puma RS-X",
+      "photourl": "https://example.com/pumarsx.jpg",
+      "url": "https://example.com/products/pumarsx",
+      "description": "Puma RS-X Bold sneakers with chunky retro design, cushioned midsole, and bold color combinations.",
+      "price": 110,
+      "likes": 321
+    },
+    {
+      "id": "4",
+      "name": "New Balance 574",
+      "photourl": "https://example.com/newbalance.jpg",
+      "url": "https://example.com/products/newbalance",
+      "description": "New Balance 574 classic sneakers with ENCAP midsole technology, suede and mesh upper, and retro styling.",
+      "price": 85,
+      "likes": 210
+    },
+    {
+      "id": "5",
+      "name": "Reebok Classic",
+      "photourl": "https://example.com/reebok.jpg",
+      "url": "https://example.com/products/reebok",
+      "description": "Reebok Classic Leather sneakers with soft leather upper, cushioned footbed, and timeless vintage design.",
+      "price": 75,
+      "likes": 198
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "Atomic Habits",
+      "photourl": "https://example.com/atomichabits.jpg",
+      "url": "https://example.com/products/atomichabits",
+      "description": "James Clear's Atomic Habits offers a proven framework for building good habits and breaking bad ones.",
+      "price": 14,
+      "likes": 767
+    },
+    {
+      "id": "2",
+      "name": "The Alchemist",
+      "photourl": "https://example.com/alchemist.jpg",
+      "url": "https://example.com/products/alchemist",
+      "description": "Paulo Coelho's The Alchemist is a magical story about following your dreams and listening to your heart.",
+      "price": 12,
+      "likes": 654
+    },
+    {
+      "id": "3",
+      "name": "Deep Work",
+      "photourl": "https://example.com/deepwork.jpg",
+      "url": "https://example.com/products/deepwork",
+      "description": "Cal Newport's Deep Work teaches rules for focused success in a distracted world.",
+      "price": 16,
+      "likes": 543
+    },
+    {
+      "id": "4",
+      "name": "Sapiens",
+      "photourl": "https://example.com/sapiens.jpg",
+      "url": "https://example.com/products/sapiens",
+      "description": "Yuval Noah Harari's Sapiens explores the history of humankind from evolution to modern society.",
+      "price": 18,
+      "likes": 432
+    },
+    {
+      "id": "5",
+      "name": "The Psychology of Money",
+      "photourl": "https://example.com/psychologymoney.jpg",
+      "url": "https://example.com/products/psychologymoney",
+      "description": "Morgan Housel's The Psychology of Money examines how people think about money and teaches how to make better financial decisions.",
+      "price": 15,
+      "likes": 321
+    }
+  ]
+}

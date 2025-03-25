@@ -1,0 +1,18 @@
+
+<figure>
+  <img src="https://example.com/product.jpg" alt="Product image">
+</figure>
+
+<header>
+  <h2> {{ product.name }} </h2>
+  <p class="description"> {{ this.product.description }} </p>
+</header>
+
+<footer>
+  <button type="button" (click)="updateLikes()"> Like ({{ product.likes }} liked)</button>
+  <nav class="share-links">
+    <p><a [href]="this.product.url" target="_blank">Share on Telegram</a></p>
+    <p><a [href]="this.product.url" target="_blank">Share on WhatsApp</a></p>
+  </nav>
+</footer>
+

@@ -1,3 +1,15 @@
+<label for="album-id">ID</label>
+<input type="text" id="album-id" [(ngModel)]="newID">
+
+<label for="new-user-id">User ID</label>
+<input type="text" id="new-user-id" [(ngModel)]="newUserID">
+
+<label for="album-name">Name</label>
+<input type="text" id="album-name" [(ngModel)]="newName">
+
+
+<button (click)="createAlbum(newID, newUserID, newName)">Add album</button>
+
 <div class="album">
 <ul>
   <li *ngFor="let album of albums">

@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {AlbumsService} from '../service/albums.service';
 import {RouterLink} from '@angular/router';
+import {FormsModule} from '@angular/forms';
 
 export interface Album {
   userId: number;
@@ -24,12 +25,15 @@ interface CRUD {
 
 @Component({
   selector: 'app-albums',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, FormsModule],
   templateUrl: './albums.component.html',
   styleUrl: './albums.component.css'
 })
 export class AlbumsComponent implements OnInit, CRUD {
   public albums!: Album[];
+  newID!: number;
+  newUserID!: number;
+  newName!: string;
   constructor(private albumsService: AlbumsService) {
   }
 
