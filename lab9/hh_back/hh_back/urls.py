@@ -1,5 +1,5 @@
 """
-URL configuration for shopBack project.
+URL configuration for hh_back project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -17,12 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from django.http import HttpResponse
-def main(request):
-    return HttpResponse("<h1>Main</h1>")
-
 urlpatterns = [
-    path('', main),
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls'))
+    path('api/', include('api.urls')),
 ]

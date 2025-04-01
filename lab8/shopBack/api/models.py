@@ -5,6 +5,7 @@ from django.db import models
 # Create your models here.
 
 class Category(models.Model):
+
     name = models.CharField(max_length=255)
 
     def __str__(self):
@@ -17,6 +18,7 @@ class Category(models.Model):
         }
 
 class Product(models.Model):
+
     name = models.CharField(max_length=255)
     price = models.FloatField()
     description = models.TextField()
@@ -35,6 +37,6 @@ class Product(models.Model):
             "description": self.description,
             "count": self.count,
             "is_active": self.is_active,
-            "category": self.category
+            "category": self.category.to_json()
 
         }
