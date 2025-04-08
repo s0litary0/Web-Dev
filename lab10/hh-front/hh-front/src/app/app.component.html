@@ -1,0 +1,9 @@
+<h1>Companies List</h1>
+
+<article>
+  @for (company of companies; track company.id) {
+    <app-company [company]="company" />
+  }
+</article>
+
+<router-outlet />

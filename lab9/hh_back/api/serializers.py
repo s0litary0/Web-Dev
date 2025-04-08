@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import Company, Vacancy
+from .models import Company, Vacancy, Position
+
 
 class CompanySerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
@@ -14,3 +15,13 @@ class VacancySerializer(serializers.Serializer):
     description = serializers.CharField()
     salary = serializers.FloatField()
     company = serializers.PrimaryKeyRelatedField(queryset=Company.objects.all())
+    position = serializers.PrimaryKeyRelatedField(queryset=Position.objects.all())
+
+class PositionSerializer(serializers.Serializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField(max_length=100)
+
+class PositionSerializer2(serializers.ModelSerializer):
+    class Meta:
+        model = Position
+        fields = ('id', 'name')
